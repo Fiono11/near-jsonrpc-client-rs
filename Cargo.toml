@@ -24,10 +24,10 @@ lazy_static = "1.4.0"
 #near-chain-configs = "0.20.0"
 #near-jsonrpc-primitives = "0.20.0"
 
-near-crypto = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-crypto" }
-near-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-primitives" }
-near-chain-configs = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-chain-configs" }
-near-jsonrpc-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-jsonrpc-primitives" }
+near-crypto = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-crypto" }
+near-primitives = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-primitives" }
+near-chain-configs = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-chain-configs" }
+near-jsonrpc-primitives = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-jsonrpc-primitives" }
 
 [dev-dependencies]
 tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
